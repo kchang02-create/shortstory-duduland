@@ -1,0 +1,76 @@
+body {
+	background-color: rgb(255, 130, 236); 
+	text-align: justify; 
+	text-align: center; 
+	font-size: 4vw;
+	font-family:Arial Narrow, sans-serif; 
+}
+
+h1 {
+	font-family:Arial Narrow, sans-serif; 
+	text-decoration: underline;
+	font-size: 14vw; 
+	margin: 0vw;
+
+	animation-name: animation-title; 
+	animation-duration:3s ;
+	animation-iteration-count:infinite; 
+	animation-direction: alternate;
+	animation-timing-function: ease-ease;
+}
+
+p {
+	font-size: 3vw; 
+	word-spacing: .5vw;
+}
+
+.help {
+	color: white; 
+	
+}
+
+@keyframes animation-title{
+	0%{
+		color: white;
+		text-transform: lowercase;
+		text-align: center;
+		font-size: 20vw;
+		
+	}
+
+	100%{
+		color: black;
+		text-transform: uppercase; 
+		text-align: center; 
+	}
+
+}
+
+.dance-bitch {
+	color: white; 
+
+	animation-name: dance-bitch; 
+	animation-duration:3s ;
+	animation-iteration-count:infinite; 
+	animation-direction: alternate;
+	animation-timing-function: ease-ease;
+}
+
+@keyframes dance-bitch{
+	0%{
+		color: white;
+		text-align: center;
+		transform: skewX(-10deg);
+		
+	}
+
+	100%{
+		color: white; 
+		text-align: center; 
+		transform: skewX(10deg);
+	}
+
+}
+
+
+/* Add your CSS classes here! */
